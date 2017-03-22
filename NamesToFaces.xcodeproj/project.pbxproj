@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02A46B11E8237500008BD4C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A46B01E8237500008BD4C /* Person.swift */; };
 		E060EF471E800061006AD324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060EF461E800061006AD324 /* AppDelegate.swift */; };
 		E060EF491E800062006AD324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060EF481E800061006AD324 /* ViewController.swift */; };
 		E060EF4C1E800062006AD324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E060EF4A1E800062006AD324 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E02A46B01E8237500008BD4C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		E060EF431E800061006AD324 /* NamesToFaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamesToFaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E060EF461E800061006AD324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E060EF481E800061006AD324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				E060EF4F1E800062006AD324 /* LaunchScreen.storyboard */,
 				E060EF521E800062006AD324 /* Info.plist */,
 				E060EF661E800351006AD324 /* PersonCell.swift */,
+				E02A46B01E8237500008BD4C /* Person.swift */,
 			);
 			path = NamesToFaces;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				E060EF671E800351006AD324 /* PersonCell.swift in Sources */,
 				E060EF491E800062006AD324 /* ViewController.swift in Sources */,
+				E02A46B11E8237500008BD4C /* Person.swift in Sources */,
 				E060EF471E800061006AD324 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 				E060EF621E800062006AD324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E060EF631E800062006AD324 /* Build configuration list for PBXNativeTarget "NamesToFacesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E060EF651E800062006AD324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
